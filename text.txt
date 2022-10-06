@@ -1,0 +1,1 @@
+The main distinction between ESM and CJS is the loading of modules. ESM loads asynchronous and CJS loads synchronous. There are limitations in interoperability, while ESM can import CJS, CJS cannot require ESM, because it would break the synchronous constraint.
